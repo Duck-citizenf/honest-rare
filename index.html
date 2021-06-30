@@ -113,9 +113,24 @@
             <div>WISSEN</div>
             <div class="search">SUCHE<img src="like.png"></div>
         </div>
-        <div style="display:flex; max-width: 1200px; margin: 0 auto;">
-            <div style="width:280px">
-                
+        <div class="main">
+            <div style="width:280px; margin-right:25px;">
+                <details>
+                    <summary>
+                        Preis
+                    </summary>
+                    € <input class="price-range"> - € <input class="price-range">
+                </details>
+                <details>
+                    <summary>
+                        Stil
+                    </summary>
+                    <div style="display: flex; flex-direction: column;">
+                        <input style="padding:8px 4px;" placeholder="Suche">
+                        <a class="alco-sort"><input type="checkbox"> Alkoholfreie Spirituosen Probierpaket</a>
+                        <a class="alco-sort"><input type="checkbox"> Alkoholfreier Gin</a>
+                    </div>
+                </details>
             </div>
             <div>
                 <div style="display:flex; flex-direction: column;">

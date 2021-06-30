@@ -362,6 +362,19 @@ body {
     font-size:25px;
     display:none;
 }
+.price-range{
+    width: 64px;
+    padding: 4px 8px;
+}
+.alco-sort{
+    font-size: 14px;
+    margin: 5px 3px;
+}
+.main{
+    display:flex; 
+    max-width: 1200px; 
+    margin: 0 auto;
+}
 @media (max-width:1024px){
     .post-header2 {
         display: none;
@@ -427,6 +440,9 @@ body {
     }
     .stikos a{
         font-size:10px;
+    }
+    .main{
+        flex-direction: column;
     }
 }
 
