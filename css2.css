@@ -209,15 +209,14 @@ body {
     border-radius: 8px;
     padding: 2px 7px 2px 7px;
 }
-.main-content{
-    margin: 0 auto;
-    max-width: 1200px;
-    display: flex;
-}
 .menu:focus-within > .platform{display:initial;}
 .basket:focus-within > .minicart-container{display:initial;}
 .dropdown:hover .dropdown-content {display: block;}
 /*end of the header*/
+.main-content{
+    margin: 0 auto;
+    max-width: 1200px;
+}
 .gallery-box img{
     width:585px;
     height: 400px;
@@ -353,4 +352,105 @@ body {
     color: #55a18c;
     font-family: "Montserrat",sans-serif;
     margin-top: 30px;
+}
+.bonuses{
+    margin-top: 46px;
+    margin-bottom: 41px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.bonuses_exp{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 7px;
+    font-family: "Montserrat",sans-serif;
+}
+.flex {
+    display: flex;
+}
+.Lieferung {
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+}
+.others{
+    padding: 6px 0px 6px 0px;
+}
+.features{
+    background: #f3f3f3;
+    height: 280px;
+    width: 224px;
+    margin: 0 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.features_text{
+    text-align: center;
+    margin: 32px auto 0px auto;
+}
+.map_tab{
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    transform: translateY(0px);
+    opacity: 1;
+    display: absolute;
+}
+.bottle_tab {
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    transform: translateY(0px);
+    opacity: 0;
+    position: absolute;
+    left:0;
+    margin-top: 30px;
+}
+.map_tab{
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    transform: translateY(0px);
+    opacity: 0;
+    position: absolute;
+    left:0;
+    text-align: center;
+    padding-top: 45px;
+    width: 100%;
+}
+.tab_warp{
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.radio1_tab{
+    cursor: pointer;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    padding: 0 25px;
+    padding-bottom: 14px;
+    font-weight: 600;
+    border-bottom: 4px solid #fff;
+}
+.radio2_tab{
+    cursor: pointer;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    padding: 0 25px;
+    padding-bottom: 14px;
+    font-weight: 600;
+    border-bottom: 4px solid #fff;
+}
+.radio1, .radio2{
+    display: none;
+}
+.radio1:checked ~ .bottle_tab{
+    opacity: 1;
+}
+.radio2:checked ~ .map_tab{
+    opacity: 1;
 }
