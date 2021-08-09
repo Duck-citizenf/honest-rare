@@ -216,6 +216,7 @@ body {
 .main-content{
     margin: 0 auto;
     max-width: 1200px;
+    font-family: "Montserrat",sans-serif;
 }
 .gallery-box img{
     width:585px;
@@ -429,7 +430,6 @@ body {
 }
 .radio1_tab{
     cursor: pointer;
-    font-family: "Montserrat",sans-serif;
     font-size: 14px;
     padding: 0 25px;
     padding-bottom: 14px;
@@ -438,7 +438,6 @@ body {
 }
 .radio2_tab{
     cursor: pointer;
-    font-family: "Montserrat",sans-serif;
     font-size: 14px;
     padding: 0 25px;
     padding-bottom: 14px;
@@ -453,4 +452,15 @@ body {
 }
 .radio2:checked ~ .map_tab{
     opacity: 1;
+}
+.liters{
+    margin: 65px 115px 30px;
+}
+.liters_content{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 25px;
+}
+.gray{
+    background: silver;
 }
