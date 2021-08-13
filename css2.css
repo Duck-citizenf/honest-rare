@@ -236,11 +236,39 @@ body {
     margin-right: 30px;
     overflow: hidden;
 }
+.gallery_sale{
+    position: absolute;
+    left: 157px;
+    top: 303px;
+    background: #f4c400;
+    color: #fff;
+    border-radius: 10px;
+    padding: 7px 33px;
+    font-family: "Montserrat",sans-serif;
+    z-index: 1;
+}
 .product_form{
     width: 50%;
 }
 .gallery_path{
     margin:72px 0px 0px 70px;
+    font-size: 14px;
+}
+.gallery_path_slash{
+    color: #bfbfbf; 
+    font-family: "Futura Bk",sans-serif;
+}
+.gallery_path_line{
+    color: #bfbfbf; 
+    font-family: "Futura Bk",sans-serif;
+    cursor: pointer;
+}
+.gallery_path_last{
+    color:#373737;
+    font-family: "Futura Bk",sans-serif;
+}
+.gallery_path_line:hover{
+    color: #55a18c;
 }
 .gallery{
     position:relative;
@@ -349,7 +377,7 @@ body {
     height: 64px;
 }
 .amount_button{
-    background: #74b5a3;
+    background: #55a18c;
     padding: 0 18px;
     border-radius: 10px;
     color: #fff;
@@ -360,6 +388,9 @@ body {
     vertical-align: middle;
     margin: 0px 52px 0px 5px;
     font-size: 16px;
+}
+.amount_button:hover{
+    background: #74b5a3;
 }
 .amount_plus{
     position: relative;
@@ -383,6 +414,32 @@ body {
     line-height: 25px;
     text-align: center;
     border-radius: 3px;
+}
+.amount_plus:hover{
+    background: #55a18c;
+    color:snow;
+}
+.amount_minus:hover{
+    background: #55a18c;
+    color:snow;
+}
+.amount_favorite{
+    position: absolute;
+    top: 225px;
+    right: 110px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 56px;
+    font-size: 29px;
+    color: #55a18c;
+    cursor: pointer;
+}
+.amount_favorite:hover{
+    background: #74b5a3;
+    color:snow;
 }
 .marked_storage{
     color: #55a18c;
