@@ -471,6 +471,7 @@ body {
 }
 .others{
     padding: 6px 0px 6px 0px;
+    font-size: 14px;
 }
 .features{
     background: #f3f3f3;
@@ -517,7 +518,7 @@ body {
     flex-direction: column;
     position: relative;
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 18px;
     border-bottom: 1px solid #ccc;
 }
 .radio1_tab{
@@ -541,6 +542,12 @@ body {
 }
 .radio1:checked ~ .bottle_tab{
     opacity: 1;
+}
+.radio1:checked ~ .radio1_tab{
+    border-bottom: 4px solid #55a18c;
+}
+.radio2:checked ~ .radio2_tab{
+    border-bottom: 4px solid #55a18c;
 }
 .radio2:checked ~ .map_tab{
     opacity: 1;
