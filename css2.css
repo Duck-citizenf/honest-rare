@@ -237,9 +237,11 @@ body {
     overflow: hidden;
 }
 .gallery_sale{
-    position: absolute;
-    left: 157px;
-    top: 303px;
+    position: relative;
+    left: 31px;
+    top: 138px;
+    width: 56px;
+    text-align: center;
     background: #f4c400;
     color: #fff;
     border-radius: 10px;
@@ -360,6 +362,7 @@ body {
 .amount{
     margin-top: 25px;
     display: flex;
+    position: relative;
 }
 .amount_number{
     width: 58px;
@@ -425,8 +428,8 @@ body {
 }
 .amount_favorite{
     position: absolute;
-    top: 225px;
-    right: 110px;
+    top: -217px;
+    right: 0px;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 50%;
