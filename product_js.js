@@ -23,21 +23,33 @@ window.onload = function() {
         console.log(e.type);
         console.log(e.target);
         console.log(e.detail);
-        if (a==0){document.getElementById("o1").classList.remove('gallery', 'gallery-2', 'gallery-3');
-        document.getElementById("o1").classList.add('gallery-2');}
-        if (a==1){document.getElementById("o1").classList.remove('gallery', 'gallery-2', 'gallery-3');
-        document.getElementById("o1").classList.add('gallery-3');}
-        a +=1;
+        if (a==1){
+            document.getElementById("o1").classList.remove('gallery', 'gallery-2', 'gallery-3');
+            document.getElementById("o1").classList.add('gallery-3'); 
+            a=2;
+        }
+        if (a==0){
+            document.getElementById("o1").classList.remove('gallery', 'gallery-2', 'gallery-3');
+            document.getElementById("o1").classList.add('gallery-2'); 
+            a=1;
+        }
+        console.log(a);
     });
 
     document.querySelector('.gallery').addEventListener('swiped-right', function(e) {
         console.log(e.type);
         console.log(e.target);
         console.log(e.detail);
-        if (a==1){document.getElementById("o1").classList.remove('gallery', 'gallery-2', 'gallery-3');
-        document.getElementById("o1").classList.add('gallery');}
-        if (a==2){document.getElementById("o1").classList.remove('gallery', 'gallery-2', 'gallery-3');
-        document.getElementById("o1").classList.add('gallery-2');}
-        a +=-1;
+        if (a==1){
+            document.getElementById("o1").classList.remove('gallery', 'gallery-2', 'gallery-3');
+            document.getElementById("o1").classList.add('gallery'); 
+            a=0;
+        }
+        if (a==2){
+            document.getElementById("o1").classList.remove('gallery', 'gallery-2', 'gallery-3');
+            document.getElementById("o1").classList.add('gallery-2'); 
+            a=1;
+        }
+        console.log(a);
     });
 }
