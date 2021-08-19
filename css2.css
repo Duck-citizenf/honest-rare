@@ -488,16 +488,18 @@ body {
 }
 .featuress{
     margin-top: 55px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 .features{
     background: #f3f3f3;
     height: 280px;
-    width: 224px;
+    width: 120px;
     margin: 0 10px 10px 0;
     border-radius: 10px;
     display: flex;
+    flex: 1;
     justify-content: center;
     flex-direction: column;
     font-family: "Montserrat",sans-serif;
@@ -646,6 +648,19 @@ body {
     color:#FFFFFF;
 }
 /*Media*/
+@media (max-width:1070px){
+    .featuress:before{
+        content: "";
+        width: 100%;
+        order: 1;
+    }
+    .features{
+        margin-bottom: 30px;
+    }
+    .features:nth-child(n+4){
+        order: 1;
+    }
+}
 @media (max-width:1024px){
     .post-header2 {
         display: none;
@@ -677,9 +692,6 @@ body {
     .marked_storage{
         margin: 40px 0 26px;
     }
-    .featuress{
-        grid-template-columns: auto auto auto;
-    }
     .inhalt_size{
         right: 0;
     }
@@ -703,6 +715,17 @@ body {
         top: 0;
         left: 0;
         z-index: 7;
+    }
+}
+@media (max-width:872px){
+    .last{
+        position: absolute;
+        right: 0;
+        bottom:100%;
+        margin-bottom: 27px;
+    }
+    .marked_storage{
+        margin-bottom: 0px;
     }
 }
 @media (max-width:765px){
@@ -730,13 +753,6 @@ body {
     .flex_1{
         flex-direction: column;
     }
-    .featuress{
-        grid-template-columns: auto auto;
-        width:50%;
-    }
-    .features{
-        width: 130px;
-    }
     .product_form{
         width: 100%;
     }
@@ -760,6 +776,26 @@ body {
     }
     .radio2_tab{
         font-size: 13px;
+    }
+    .last{
+        position: initial;
+    }
+    .marked_storage{
+        margin: 40px 0 26px;
+    }
+    .featuress{
+        display: block;
+        overflow: hidden;
+        text-align: center;
+    }
+    .features{
+        height: 220px;
+        float: left;
+        width: calc(50% - 15px);
+    }
+    .odd {
+        float: none;
+        display: inline-flex;
     }
 }
 @media (max-width:441px){
@@ -792,6 +828,12 @@ body {
     }
     .amount_button{
         padding: 0 9px;
+    }
+    .bonuses_exp{
+        font-size: 12px;
+    }
+    .amount_button{
+        font-size: 13px;
     }
 }
 img {
