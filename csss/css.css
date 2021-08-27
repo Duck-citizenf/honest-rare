@@ -8,15 +8,15 @@
     font-family: "Futura Bk";
     font-style: normal;
     font-weight: 400;
-    src: url(Futura-Book.woff2);
+    src: url(Fonts/Futura-Book.woff2);
 }
 @font-face {
     font-family: "Born Ready Slanted";
-    src: url(BornReadySlanted-Regular.woff2)
+    src: url(Fonts/BornReadySlanted-Regular.woff2)
 }
 @font-face {
     font-family: "Nunito";
-    src: url(Nunito.woff);
+    src: url(Fonts/Nunito.woff);
 }
 body {
     margin:0px;
