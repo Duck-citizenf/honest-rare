@@ -362,6 +362,13 @@ body {
     display: inline-block;
     width: 100%;
 }
+.product_button a{
+    background: #e8c511;
+    padding: 11px 45px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 14px;
+}
 /*beginning of the footer*/
 .copyright {
     text-align: center;
