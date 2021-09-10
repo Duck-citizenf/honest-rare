@@ -14,6 +14,10 @@
     font-family: "Nunito";
     src: url(Fonts/Nunito.woff);
 }
+@font-face {
+    font-family: "Born Ready Slanted";
+    src: url(Fonts/BornReadySlanted-Regular.woff2)
+}
 body {
     margin:0px;
     font-family: "Futura Bk", sans-serif;
@@ -259,7 +263,6 @@ body {
 .banner_suspicious img{
     height: 450px;
     display: flex;
-    flex-direction: column;
 }
 .spirt_grid{
     display: block;
@@ -278,11 +281,85 @@ body {
     transform: translate(-50%, -50%);
     color:#fff;
     font-size: 50px;
+    font-weight: 700;
 }
 .spirt_grid::after{
     display: table;
     content: "";
     line-height: 0;
+    width: 100%;
+}
+.getranke{
+    text-align: center;
+    margin: 20px 0 15px;
+    font-size: 36px;
+}
+.after-getranke{
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 18px;
+    padding-top: 7px;
+    margin: 0 0 45px;
+}
+.product_grid{
+    display: block;
+    box-sizing: border-box;
+}
+.product_grid::after{
+    display: table;
+    content: "";
+    line-height: 0;
+    width: 100%;
+}
+.product_examples_purple{
+    min-height: 340px;
+    width: 48.936170212766%;
+    margin: 50px 25px 80px 0;
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(87,18,81,1) 0%, rgba(96,57,93,1) 70%);
+}
+.product_examples_green{
+    min-height: 340px;
+    width: 48.936170212766%;
+    float: left;
+    display: block;
+    margin: 50px 0 80px 0;
+    box-sizing: border-box;
+    background: linear-gradient(60.62deg, #1F2A2E 18.72%, #293A3A 47.64%, #126967 89%);
+}
+.product_grid *{
+    color: #fff;
+}
+.product_head{
+    font-family: 'Born Ready Slanted';
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    line-height: 18px;
+}
+.product_base{
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.product_type{
+    padding: 38px 0px 6px 0px;
+    font-family: 'Nunito';
+    font-size: 14px;
+}
+.product_price{
+    font-family: 'Born Ready Slanted'; 
+    font-style: italic;
+    font-size: 30px;
+}
+.product_button{
+    background-color: white;
+    color:black;
+    display: inline-block;
     width: 100%;
 }
 /*beginning of the footer*/
