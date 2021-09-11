@@ -369,6 +369,20 @@ body {
     font-weight: 600;
     font-size: 14px;
 }
+.DEIN{
+    text-align: center; 
+    letter-spacing: 2px; 
+    font-size: 36px;
+}
+.Wir{
+    text-align: center; 
+    font-size: 18px; 
+    padding-top: 7px; 
+    font-family: 'Nunito';
+}
+.banner_purple{
+    background-image: url(images/midle-img-cutout.png), linear-gradient(178.86deg, #FE48EC -30.51%, #A20192 0.23%, #7A016E 37.56%, #510049 74.23%, #290025 109.32%, #140012 148.34%);
+}
 /*beginning of the footer*/
 .copyright {
     text-align: center;
