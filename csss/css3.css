@@ -381,7 +381,45 @@ body {
     font-family: 'Nunito';
 }
 .banner_purple{
+    height: 590px;
+    background-size: 100% 100%;
+    color:#fff;
     background-image: url(images/midle-img-cutout.png), linear-gradient(178.86deg, #FE48EC -30.51%, #A20192 0.23%, #7A016E 37.56%, #510049 74.23%, #290025 109.32%, #140012 148.34%);
+}
+.banner_purple_image{
+    width: 50%;
+    float: left;
+}
+.banner_purple_image img{
+    max-width: 100%;
+    height: auto;
+}
+.purple_flower{
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 21px;
+    padding: 0 0 15px;
+    letter-spacing: 3px;
+}
+.purple_slanted{
+    padding: 25px 0 0;
+    font-family: 'Born Ready Slanted';
+    font-style: italic;
+    font-size: 100px;
+}
+.purple_golden{
+    color: #e98731;
+}
+.purple_small{
+    font-size: 14px;
+    font-family: 'Nunito';
+}
+.purple_price1{
+    padding-left: 25px;
+}
+.purple_price2{
+    font-family: 'Born Ready Slanted';
+    font-size: 28px;
 }
 /*beginning of the footer*/
 .copyright {
