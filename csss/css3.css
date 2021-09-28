@@ -274,8 +274,10 @@ body {
     float: left;
     box-sizing: border-box;
 }
-.spirt_name{
+.absolute{
     position: absolute;
+}
+.spirt_name{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -420,6 +422,29 @@ body {
 .purple_price2{
     font-family: 'Born Ready Slanted';
     font-size: 28px;
+}
+.relative{
+    position: relative;
+}
+.besonderen{
+    display: block;
+    box-sizing: border-box;
+    height: 1190px;
+}
+.besonderen:after{
+    display: table;
+    content: "";
+    line-height: 0;
+    width: 100%;
+}
+.besonderen_text{
+    top: 0;
+    text-align: center;
+    width: 50%;
+}
+.signature{
+    float: right;
+    width: 79%;
 }
 /*beginning of the footer*/
 .copyright {
