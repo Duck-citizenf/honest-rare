@@ -464,6 +464,9 @@ body {
     line-height: 0;
     width: 100%;
 }
+.instagram_images *{
+    padding: 0px 0px 5px 3px;
+}
 /*beginning of the footer*/
 .copyright {
     text-align: center;
