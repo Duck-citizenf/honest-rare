@@ -467,6 +467,18 @@ body {
 .instagram_images *{
     padding: 0px 0px 5px 3px;
 }
+.background-slash{
+    background-image: url("images/support-banner-cutout.png"), radial-gradient(circle,#3e5651 0%,#192429 100%); 
+    background-size: 100% 100%; 
+    height: auto;
+    padding: 45px 0 28px 50px;
+}
+.background-slash::after{
+    display: table;
+    content: "";
+    line-height: 0;
+    width: 100%;
+}
 /*beginning of the footer*/
 .copyright {
     text-align: center;
