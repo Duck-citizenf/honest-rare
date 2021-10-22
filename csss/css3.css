@@ -479,6 +479,9 @@ body {
     line-height: 0;
     width: 100%;
 }
+.dein_bottle{
+    background-image: url("images/smutje-kokosnuss-likoer-rum.png")
+}
 /*beginning of the footer*/
 .copyright {
     text-align: center;
