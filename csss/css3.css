@@ -285,12 +285,6 @@ body {
     font-size: 50px;
     font-weight: 700;
 }
-.spirt_grid::after{
-    display: table;
-    content: "";
-    line-height: 0;
-    width: 100%;
-}
 .getranke{
     text-align: center;
     margin: 20px 0 15px;
@@ -306,12 +300,6 @@ body {
 .product_grid{
     display: block;
     box-sizing: border-box;
-}
-.product_grid::after{
-    display: table;
-    content: "";
-    line-height: 0;
-    width: 100%;
 }
 .product_examples_purple{
     min-height: 340px;
