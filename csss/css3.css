@@ -458,6 +458,34 @@ body {
 .dein_bottle{
     background-image: url("images/smutje-kokosnuss-likoer-rum.png")
 }
+.green_price2{
+    font-family: 'Born Ready Slanted';
+    font-size: 28px;
+    color: #55a18c;
+}
+.button button{
+    text-align: center;
+    background-color: #55A18C;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    padding: 5px 0 7px 0;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.inlogo:hover > .card-price-font{
+    display: none;
+}
+.inlogo > .button{
+    display:none;
+}
+.inlogo:hover > .button {
+    display: block;
+}
 /*beginning of the footer*/
 .copyright {
     text-align: center;
