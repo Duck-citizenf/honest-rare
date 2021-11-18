@@ -130,7 +130,7 @@
     </div>
     <div class="main-container">
         <div style="overflow: hidden;position:relative;width:100%;">
-            <div style="width:3600px;position:relative;display:flex;">
+            <div data-swipe-threshold="100" id="o1" class="gallery" style="width:3600px;position:relative;display:flex;">
                 <div style="display:flex;margin-top:20px;margin-bottom:38px;width:1200px;">
                     <div style="align-items:center;justify-content:center;display:flex;">
                         <div style="letter-spacing:3px;font-size:18px;font-weight:500;line-height:24px;display:inline-block;">HONEST&RARE<br>VERSPRECHEN</div>
@@ -145,7 +145,7 @@
                 <div style="display:flex;margin-top:20px;margin-bottom:38px;width:1200px;">
                     <div style="align-items:center;justify-content:center;display:flex;">
                         <div style="letter-spacing:3px;font-size:18px;font-weight:500;line-height:24px;display:inline-block;">HONEST&RARE<br>VERSPRECHEN</div>
-                        <div style="font-size:48px;font-weight:600;margin-left:30px;">№1</div>
+                        <div style="font-size:48px;font-weight:600;margin-left:30px;">№2</div>
                     </div>
                     <div style="border-left: 3px solid #55a18c;height:75px;width:1px;display:inline-block;margin: 0 30px;"></div>
                     <div>
@@ -156,7 +156,7 @@
                 <div style="display:flex;margin-top:20px;margin-bottom:38px;width:1200px;">
                     <div style="align-items:center;justify-content:center;display:flex;">
                         <div style="letter-spacing:3px;font-size:18px;font-weight:500;line-height:24px;display:inline-block;">HONEST&RARE<br>VERSPRECHEN</div>
-                        <div style="font-size:48px;font-weight:600;margin-left:30px;">№1</div>
+                        <div style="font-size:48px;font-weight:600;margin-left:30px;">№3</div>
                     </div>
                     <div style="border-left: 3px solid #55a18c;height:75px;width:1px;display:inline-block;margin: 0 30px;"></div>
                     <div>
@@ -167,7 +167,7 @@
             </div>
         </div>
         <div style="position:relative;">
-            <div style="font-size:52px;position:absolute;cursor:pointer;right:10px;bottom:49px;">
+            <div id="o2" class="gallery_1" style="font-size:52px;position:absolute;cursor:pointer;right:10px;bottom:49px;">
                 →
             </div>
         </div>
@@ -468,4 +468,6 @@
             <a>© 2021 Honest & Rare UG (haftungsbeschränkt)</a>
         </div>
     </div>
+    <script src="main_page_js.js"></script>
+    <script src="swiped-events.min.js"></script>
 </body>

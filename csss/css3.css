@@ -486,6 +486,21 @@ body {
 .inlogo:hover > .button {
     display: block;
 }
+.gallery{
+    transform: translate(0px);
+    transition-duration: 200ms;
+    transition-property: all;
+}
+.gallery-2{
+    transform: translate(-1200px);
+    transition-duration: 200ms;
+    transition-property: all;
+}
+.gallery-3{
+    transform: translate(-2400px);
+    transition-duration: 200ms;
+    transition-property: all;
+}
 /*beginning of the footer*/
 .copyright {
     text-align: center;
