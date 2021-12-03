@@ -241,6 +241,13 @@ body {
 .banner-text{
     float: left;
     max-width: 600px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+@media (max-width:1024px){
+    .banner-text{
+        max-width: 400px;
+    }
 }
 .trinkt{
     font-weight: 400;
@@ -261,8 +268,19 @@ body {
     color: #fff;
 }
 .banner_suspicious img{
-    height: 450px;
     display: flex;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    max-width: 475px;
+}
+@media (max-width:1024px){
+    .banner_suspicious img{
+        max-width: 568px;
+        position: absolute;
+        right: 0;
+        top: 0px;
+    }
 }
 .spirt_grid{
     display: block;
