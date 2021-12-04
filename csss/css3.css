@@ -322,11 +322,12 @@ body {
 .product_examples_purple{
     min-height: 340px;
     width: 48.936170212766%;
-    margin: 50px 25px 80px 0;
+    margin: 50px 2% 80px 0;
     float: left;
     display: block;
     box-sizing: border-box;
     background: linear-gradient(90deg, rgba(87,18,81,1) 0%, rgba(96,57,93,1) 70%);
+    position: relative;
 }
 .product_examples_green{
     min-height: 340px;
@@ -336,6 +337,7 @@ body {
     margin: 50px 0 80px 0;
     box-sizing: border-box;
     background: linear-gradient(60.62deg, #1F2A2E 18.72%, #293A3A 47.64%, #126967 89%);
+    position: relative;
 }
 .product_grid *{
     color: #fff;
