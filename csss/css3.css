@@ -367,10 +367,10 @@ body {
     font-size: 30px;
 }
 .product_button{
-    background-color: white;
-    color:black;
     display: inline-block;
     width: 100%;
+    position: absolute;
+    bottom: -45px;
 }
 .product_button a{
     background: #e8c511;
