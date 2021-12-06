@@ -417,6 +417,16 @@ body {
     font-style: italic;
     font-size: 100px;
 }
+@media (max-width:1024px){
+    .purple_slanted{
+        font-size: 80px;
+    }
+}
+@media (max-width:765px){
+    .purple_slanted{
+        font-size: 55px;
+    }
+}
 .purple_golden{
     color: #e98731;
 }
@@ -449,6 +459,12 @@ body {
     text-align: center;
     width: 50%;
 }
+@media (max-width:768px){
+    .besonderen_text{
+        width: 100%;
+        position: relative;
+    }
+}
 .signature{
     float: right;
     width: 79%;
@@ -465,6 +481,11 @@ body {
     float: right;
     width: 70%;
     text-align: center;
+}
+@media (max-width:980px){
+    .instagram_header{
+        width: 100%;
+    }
 }
 .instagram_images *{
     padding: 0px 0px 5px 3px;
