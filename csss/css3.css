@@ -487,6 +487,12 @@ body {
         width: 100%;
     }
 }
+.instagram_images{
+    width: 100%;
+}
+.instagram_carousel{
+    overflow: hidden;
+}
 .instagram_images *{
     padding: 0px 0px 5px 3px;
 }
@@ -541,6 +547,37 @@ body {
     transform: translate(-2400px);
     transition-duration: 200ms;
     transition-property: all;
+}
+.E-mail_text{
+    padding: 0 15px; 
+    width: 45%; 
+    float: left;
+}
+.E-mail_box{
+    width: 33%; 
+    float: left; 
+    padding:27px 0 0 0;
+}
+.E-mail_image{
+    width: 39%; 
+    padding-left:20px; 
+    border-left: 1px solid #ccc; 
+    margin-top: 40px; 
+    float:left;
+}
+@media (max-width:768px){
+    .notebook{
+        display: none;
+    }
+    .E-mail_text{
+        display: none;
+    }
+    .E-mail_box{
+        width: 100%;
+    }
+    .E-mail_image{
+        width: 100%;
+    }
 }
 /*beginning of the footer*/
 .copyright {
