@@ -496,6 +496,18 @@ body {
 .instagram_images *{
     padding: 0px 0px 5px 3px;
 }
+.E-mail_field{
+    margin-top: -50px; 
+    width: 55%;
+    float:left;
+}
+@media (max-width:768px){
+    .E-mail_field{
+        margin-top: 0px;
+        width: 100%;
+        text-align: center;
+    }
+}
 .background-slash{
     background-image: url("images/support-banner-cutout.png"), radial-gradient(circle,#3e5651 0%,#192429 100%); 
     background-size: 100% 100%; 
@@ -574,9 +586,45 @@ body {
     }
     .E-mail_box{
         width: 100%;
+        float: none;
+        display: inline-block;
+        max-width: 200px;
     }
     .E-mail_image{
         width: 100%;
+    }
+}
+.green_name{
+    font-size:36px; 
+    color: #55a18c; 
+    margin: 0 0 15px;
+}
+.left_box{
+    float:left; 
+    width: 55%;
+}
+.right_box{
+    float:right; 
+    width:35%; 
+    text-align: center;
+}
+.green_phone{
+    color: #fff; 
+    font-size: 36px;
+}
+@media (max-width:768px){
+    .green_name{
+        font-size:16px; 
+    }
+    .right_box{
+        float: none;
+        margin-top: 29px;
+    }
+    .left_box{
+        float: none;
+    }
+    .green_phone{
+        font-size: 16px;
     }
 }
 /*beginning of the footer*/
