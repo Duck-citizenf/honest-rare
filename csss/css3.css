@@ -513,7 +513,16 @@ body {
         float: none;
     }
     .image_carousel{
-        width:1399px
+        width:1399px;
+    }
+    .image_carousel img{
+        pointer-events: none;
+    }
+    .container {
+        display: flex;
+        overflow: hidden;
+        transform: translate(calc(var(--i, 0)/var(--n)*-100% + var(--tx, 0px)));
+        position: relative;
     }
 }
 .background-slash{
@@ -579,7 +588,7 @@ body {
     padding:27px 0 0 0;
 }
 .E-mail_image{
-    width: 39%; 
+    width: 40%; 
     padding-left:20px; 
     border-left: 1px solid #ccc; 
     margin-top: 40px; 
@@ -635,6 +644,9 @@ body {
     .green_phone{
         font-size: 16px;
     }
+}
+.smooth { 
+    transition: transform calc(var(--f, 1)*.5s) ease-out; 
 }
 /*beginning of the footer*/
 .copyright {
