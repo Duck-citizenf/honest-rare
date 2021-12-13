@@ -417,14 +417,36 @@ body {
     font-style: italic;
     font-size: 100px;
 }
+.bottles_purple{
+    padding-left:20px;
+    margin-bottom:20px;
+    float:left;
+    box-sizing:border-box;
+    width:25%;
+}
 @media (max-width:1024px){
     .purple_slanted{
         font-size: 80px;
     }
 }
+@media (max-width: 979px){
+    .bottles_purple{
+        width:33.33333333%;
+    }
+}
 @media (max-width:765px){
     .purple_slanted{
         font-size: 55px;
+        padding-top: 0px;
+    }
+    .purple_flower{
+        font-size: 30px;
+    }
+    .banner_purple{
+        height: 400px;
+    }
+    .bottles_purple{
+        width:50%;
     }
 }
 .purple_golden{
