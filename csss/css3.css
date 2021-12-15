@@ -424,9 +424,21 @@ body {
     box-sizing:border-box;
     width:25%;
 }
+.one_bottle{
+    float:left; 
+    box-sizing: border-box;
+    width:20%;
+}
+.purple_text{
+    float: right;
+    width: 50%;
+}
 @media (max-width:1024px){
     .purple_slanted{
         font-size: 80px;
+    }
+    .purple_flower{
+        font-size: 30px;
     }
 }
 @media (max-width: 979px){
@@ -440,13 +452,43 @@ body {
         padding-top: 0px;
     }
     .purple_flower{
-        font-size: 30px;
+        font-size: 16px;
     }
     .banner_purple{
         height: 400px;
     }
     .bottles_purple{
         width:50%;
+    }
+    .banner_purple_image{
+        width: 50%;
+        float: right;
+        z-index: 0;
+        top: 0px;
+        right: 0px;
+        position: absolute;
+    }
+    .purple_text{
+        float:left;
+        width: 100%;
+    }
+    .one_bottle{
+        float: none;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+@media (max-width:620px){
+    .purple_slanted{
+        font-size: 44px;
+    }
+    .banner_purple_image img{
+        height: 180px;
+        width: 180px;
+    }
+    .banner_purple_image{
+        top: 213px;
     }
 }
 .purple_golden{
