@@ -492,6 +492,16 @@ body {
     .mass_bottle{
         width:100%;
     }
+    .inner_one_bottle{
+        padding-left:0px;
+        margin-bottom:0px;
+        float:none;
+        box-sizing:initial;
+        
+    }
+    .inner_one_bottle img{
+        width: 1000px;
+    }
 }
 @media (max-width:620px){
     .purple_slanted{
