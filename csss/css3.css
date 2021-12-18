@@ -444,6 +444,58 @@ body {
     float:left;
     box-sizing:border-box;
 }
+.inlogo1{
+    text-align:center;
+    color:#55a18c;
+    font-size:12px;
+    letter-spacing:2px;
+}
+.inlogo2{
+    text-align:center;
+}
+.gallery1{
+    display:flex;
+    margin-top:20px;
+    margin-bottom:38px;
+    width:1200px;
+}
+.gallery2{
+    align-items:center;
+    justify-content:center;
+    display:flex;
+}
+.gallery3{
+    letter-spacing:3px;
+    font-size:18px;
+    font-weight:500;
+    line-height:24px;
+    display:inline-block;
+}
+.gallery4{
+    font-size:48px;
+    font-weight:600;
+    margin-left:30px;
+}
+.galleryLine{
+    border-left: 3px solid #55a18c;
+    height:75px;
+    width:1px;
+    display:inline-block;
+    margin: 0 30px;
+}
+.gallery5{
+    color:#55a18c;
+    letter-spacing:3px;
+    font-size:32px;
+    font-weight:700;
+    margin:10px 0;
+    line-height:42px;
+}
+.gallery6{
+    margin: 4px 0;
+    font-size:18px;
+    line-height:18px;
+}
 @media (max-width:1024px){
     .purple_slanted{
         font-size: 80px;
@@ -501,6 +553,41 @@ body {
     }
     .inner_one_bottle img{
         width: 1000px;
+    }
+    .product_examples_purple{
+        width: 100%;
+        float:none;
+    }
+    .product_examples_green{
+        width: 100%;
+        float:none;
+    }
+    .gallery1{
+        display: initial;
+    }
+    .gallery2{
+        justify-content: initial;
+    }
+    .gallery3{
+        font-size: 12px;
+        display: flex;
+    }
+    .g_mar{
+        margin-left: 10px;
+    }
+    .gallery4{
+        font-size: 24px;
+    }
+    .galleryLine{
+        display: none;
+    }
+    .gallery5{
+        font-size:20px;
+        margin:0px 0;
+    }
+    .gallery6{
+        font-size: 14px;
+        margin:0px 0;
     }
 }
 @media (max-width:620px){
