@@ -244,11 +244,6 @@ body {
     padding-top: 20px;
     padding-bottom: 50px;
 }
-@media (max-width:1024px){
-    .banner-text{
-        max-width: 400px;
-    }
-}
 .trinkt{
     font-weight: 400;
     font-size: 40px;
@@ -280,6 +275,22 @@ body {
         position: absolute;
         right: 0;
         top: 0px;
+    }
+    .banner-text{
+        max-width: 400px;
+    }
+}
+@media (max-width:620px){
+    .banner-text{
+        max-width: 100%;
+    }
+    .banner_suspicious img{
+        max-width: 300px;
+        top: 74px;
+    }
+    .trinkt{
+        font-size: 24px;
+        line-height: 28px;
     }
 }
 .spirt_grid{
@@ -496,6 +507,13 @@ body {
     font-size:18px;
     line-height:18px;
 }
+.gallery_1{
+    font-size:52px;
+    position:absolute;
+    cursor:pointer;
+    right:10px;
+    bottom:49px;
+}
 @media (max-width:1024px){
     .purple_slanted{
         font-size: 80px;
@@ -588,6 +606,9 @@ body {
     .gallery6{
         font-size: 14px;
         margin:0px 0;
+    }
+    .gallery_1{
+        bottom:85px;
     }
 }
 @media (max-width:620px){
