@@ -234,6 +234,12 @@ body {
     padding-right: 20px;
     padding-left: 20px;
 }
+.special-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
 .banner{
     background-size: 100% 100%;
     background-image: url("images/home-banner-cutout.png"),linear-gradient(90deg, #141e4b 0%, #90d1e6 100%);
@@ -610,6 +616,10 @@ body {
     .gallery_1{
         bottom:85px;
     }
+    .special-container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
 }
 @media (max-width:620px){
     .purple_slanted{
@@ -655,6 +665,12 @@ body {
     text-align: center;
     width: 50%;
 }
+.background-slash{
+    background-image: url("images/support-banner-cutout.png"), radial-gradient(circle,#3e5651 0%,#192429 100%); 
+    background-size: 100% 100%; 
+    height: auto;
+    padding: 45px 0 28px 50px;
+}
 @media (max-width:768px){
     .besonderen_text{
         width: 100%;
@@ -699,6 +715,14 @@ body {
     width: 55%;
     float:left;
 }
+@media (min-width:768px){
+    .left_box{
+        width: 55%;
+    }
+    .right_box{
+        width: 35%;
+    }
+}
 @media (max-width:768px){
     .E-mail_field{
         margin-top: 0px;
@@ -720,12 +744,9 @@ body {
         transform: translate(calc(var(--i, 0)/var(--n)*-100% + var(--tx, 0px)));
         position: relative;
     }
-}
-.background-slash{
-    background-image: url("images/support-banner-cutout.png"), radial-gradient(circle,#3e5651 0%,#192429 100%); 
-    background-size: 100% 100%; 
-    height: auto;
-    padding: 45px 0 28px 50px;
+    .background-slash{
+        background-image: url("images/midle-img-cutout.png"), radial-gradient(circle,#3e5651 0%,#192429 100%); 
+    }
 }
 .dein_bottle{
     background-image: url("images/smutje-kokosnuss-likoer-rum.png")
@@ -813,12 +834,10 @@ body {
     margin: 0 0 15px;
 }
 .left_box{
-    float:left; 
-    width: 55%;
+    float:left;
 }
 .right_box{
     float:right; 
-    width:35%; 
     text-align: center;
 }
 .green_phone{
@@ -843,6 +862,14 @@ body {
 }
 .smooth { 
     transition: transform calc(var(--f, 1)*.5s) ease-out; 
+}
+@media(max-width:480px){
+    .DEIN{
+        font-size: 18px;
+    }
+    .getranke{
+        font-size: 18px;
+    }
 }
 /*beginning of the footer*/
 .copyright {
