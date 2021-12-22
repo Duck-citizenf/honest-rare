@@ -711,6 +711,19 @@ body {
         top: 213px;
     }
 }
+@media (max-width:520px){
+    .gallery6{
+        width: 360px;
+    }
+    .gallery_1{
+        bottom:85px;
+    }
+}
+@media (max-width:360px){
+    .gallery5{
+        font-size: 14px;
+    }
+}
 .purple_golden{
     color: #e98731;
 }
