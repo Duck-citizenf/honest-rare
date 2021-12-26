@@ -1027,8 +1027,7 @@ body {
         height: auto;
     }
     .post-header0 {
-        display: flex;
-        justify-content:flex-start;
+        position: relative;
     }
     .post-header0 .right-logo{
         display: flex;
@@ -1036,6 +1035,11 @@ body {
     }
     .post-header0 .left-logo{
         padding-left: 0;
+    }
+    .left-logo{
+        position: absolute;
+        top: 12px;
+        left: 46px;
     }
     .right-logo span >div{
         display: none;
@@ -1070,6 +1074,12 @@ body {
     }
     .button-margin {
         margin-left:20px;
+    }
+}
+@media (max-width:360px){
+    .left-logo{
+        max-width: 115px;
+        top: 21px;
     }
 }
 img {
