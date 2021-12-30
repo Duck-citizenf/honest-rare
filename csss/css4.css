@@ -228,6 +228,24 @@ body {
     z-index: 7;
 }
 /*end of the header*/
+.after:after{
+    display: table;
+    content: "";
+    line-height: 0;
+    width: 100%;
+}
+.main-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.border-box{
+    box-sizing: border-box;
+}
+.h4-first:hover{
+    color: #55a18c;
+}
 /*beginning of the footer*/
 .copyright {
     text-align: center;
@@ -351,4 +369,16 @@ body {
 }
 img {
     max-width: 100%;
+}
+h2{
+    font-family: 'Futura Bk',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+}
+h4{
+    font-family: 'Futura Bk',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0px;
 }
