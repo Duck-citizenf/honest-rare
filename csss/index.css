@@ -239,6 +239,7 @@ body {
 }
 .header__burger {
     font-size: 28px;
+    margin: 0px 10px 7px;
 }
 .main__card-top-font{
     color: #55a18c;
@@ -333,9 +334,11 @@ body {
     font-weight: 400;
 }
 .footer__email{
+    max-width: 240px;
+}
+.footer__email-margin{
     margin-bottom:10px; 
     padding: 7px 10px;
-    max-width: 240px;
 }
 .footer__image3rd{
     padding-left: 20px;
@@ -364,6 +367,11 @@ body {
 @media (max-width:1024px){
     .page-top__header {
         display: none;
+    }
+    .header__logo{
+        position: absolute;
+        top: 18px;
+        left: 46px;
     }
     .header__logo img{
         width: 150px;
@@ -429,6 +437,12 @@ body {
     }
     .main{
         flex-direction: column;
+    }
+}
+@media (max-width:360px){
+    .header__logo{
+        max-width: 115px;
+        top: 15px;
     }
 }
 
