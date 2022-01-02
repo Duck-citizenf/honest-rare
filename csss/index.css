@@ -28,9 +28,6 @@ body {
 .text-center{
     text-align: center;
 }
-.text-centrer-child *{
-    text-align: center;
-}
 .relative{
     position:relative;
 }
