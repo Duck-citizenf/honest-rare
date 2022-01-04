@@ -18,6 +18,9 @@
     font-family: "Born Ready Slanted";
     src: url(Fonts/BornReadySlanted-Regular.woff2)
 }
+html,body{
+    overflow-x: hidden;
+}
 body {
     margin:0px;
     font-family: "Futura Bk", sans-serif;
