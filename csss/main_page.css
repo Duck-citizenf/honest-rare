@@ -14,31 +14,31 @@
     background-size: 100% 100%;
     background-image: url("images/home-banner-cutout.png"),linear-gradient(90deg, #141e4b 0%, #90d1e6 100%);
 }
-.banner-text{
+.banner__text{
     float: left;
     max-width: 600px;
     padding-top: 20px;
     padding-bottom: 50px;
 }
-.trinkt{
+.banner__beverages{
     font-weight: 400;
     font-size: 40px;
     line-height: 54px;
     color: #fff;
 }
-.manufaktur{
+.banner__manufacture{
     font-family: "Nunito";
     font-size: 18px;
     line-height: 22px;
     color: #fff;
 }
-.banner-button{
+.banner__button{
     border: 1px solid #fff;
     padding: 11px 55px;
     cursor: pointer;
     color: #fff;
 }
-.banner_suspicious img{
+.banner__image img{
     display: flex;
     width: auto;
     height: auto;
@@ -46,36 +46,36 @@
     max-width: 475px;
 }
 @media (max-width:1024px){
-    .banner_suspicious img{
+    .banner__image img{
         max-width: 568px;
         position: absolute;
         right: 0;
         top: 0px;
     }
-    .banner-text{
+    .banner__text{
         max-width: 400px;
     }
 }
 @media (max-width:765px){
-    .manufaktur{
+    .banner__manufacture{
         max-width: 180px;
     }
 }
 @media (max-width:620px){
-    .banner-text{
+    .banner__text{
         max-width: 100%;
     }
-    .banner_suspicious img{
+    .banner__image img{
         max-width: 300px;
         top: 74px;
     }
-    .trinkt{
+    .banner__beverages{
         font-size: 24px;
         line-height: 28px;
     }
 }
 @media (max-width:480px){
-    .banner-button{
+    .banner__button{
         padding: 0px;
         display: block;
         width: 160px;
@@ -84,22 +84,22 @@
         line-height: 40px;
         text-align: center;
     }
-    .banner_suspicious img{
+    .banner__image img{
         max-width: 229px;
         top: 139px;
     }
 }
-.spirt_grid{
+.spirit-grid{
     display: block;
     box-sizing: border-box;
 }
-.spirt_picture{
+.spirit-picture{
     padding: 0 0 20px 30px;
     width: 33.333333%;
     float: left;
     box-sizing: border-box;
 }
-.phone_hidden{
+.phone-hidden{
     padding: 0 0 20px 30px;
     width: 33.333333%;
     float: left;
@@ -108,7 +108,7 @@
 .absolute{
     position: absolute;
 }
-.spirt_name{
+.spirit-name{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -116,23 +116,23 @@
     font-size: 50px;
     font-weight: 700;
 }
-.getranke{
+.special__beverage{
     text-align: center;
     margin: 20px 0 15px;
     font-size: 36px;
 }
-.after-getranke{
+.special__beverage-stable{
     text-align: center;
     font-family: "Nunito";
     font-size: 18px;
     padding-top: 7px;
     margin: 0 0 45px;
 }
-.product_grid{
+.product-grid{
     display: block;
     box-sizing: border-box;
 }
-.product_examples_purple{
+.product-examples-purple{
     min-height: 340px;
     width: 48.936170212766%;
     margin: 50px 2% 80px 0;
@@ -142,7 +142,7 @@
     background: linear-gradient(90deg, rgba(87,18,81,1) 0%, rgba(96,57,93,1) 70%);
     position: relative;
 }
-.product_examples_green{
+.product-examples-green{
     min-height: 340px;
     width: 48.936170212766%;
     float: left;
@@ -152,10 +152,10 @@
     background: linear-gradient(60.62deg, #1F2A2E 18.72%, #293A3A 47.64%, #126967 89%);
     position: relative;
 }
-.product_grid *{
+.product-grid *{
     color: #fff;
 }
-.product_head{
+.product-head{
     font-family: 'Born Ready Slanted';
     font-size: 35px;
     font-style: italic;
@@ -163,29 +163,29 @@
     margin-top: 0px;
     line-height: 18px;
 }
-.product_base{
+.product-base{
     font-size: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
-.product_type{
+.product-type{
     padding: 38px 0px 6px 0px;
     font-family: 'Nunito';
     font-size: 14px;
 }
-.product_price{
+.product-price{
     font-family: 'Born Ready Slanted'; 
     font-style: italic;
     font-size: 30px;
 }
-.product_button{
+.product-button{
     display: inline-block;
     width: 100%;
     position: absolute;
     bottom: -45px;
 }
-.product_button a{
+.product-button a{
     background: #e8c511;
     padding: 11px 45px;
     letter-spacing: 2px;
@@ -203,17 +203,17 @@
     padding-top: 7px; 
     font-family: 'Nunito';
 }
-.banner_purple{
+.banner-purple{
     height: 590px;
     background-size: 100% 100%;
     color:#fff;
     background-image: url(images/midle-img-cutout.png), linear-gradient(178.86deg, #FE48EC -30.51%, #A20192 0.23%, #7A016E 37.56%, #510049 74.23%, #290025 109.32%, #140012 148.34%);
 }
-.banner_purple_image{
+.banner-purple-image{
     width: 50%;
     float: left;
 }
-.banner_purple_image img{
+.banner-purple-image img{
     max-width: 100%;
     height: auto;
 }
@@ -230,19 +230,19 @@
     font-style: italic;
     font-size: 100px;
 }
-.bottles_purple{
+.bottles-purple{
     padding-left:20px;
     margin-bottom:20px;
     float:left;
     box-sizing:border-box;
     width:25%;
 }
-.one_bottle{
+.one-bottle{
     float:left; 
     box-sizing: border-box;
     width:20%;
 }
-.mass_bottle{
+.mass-bottle{
     float:left; 
     box-sizing: border-box;
     width:80%;
@@ -266,37 +266,37 @@
 .inlogo2{
     text-align:center;
 }
-.gallery1{
+.gallery__block{
     display:flex;
     margin-top:20px;
     margin-bottom:38px;
     width:1200px;
 }
-.gallery2{
+.gallery__first-half{
     align-items:center;
     justify-content:center;
     display:flex;
 }
-.gallery3{
+.gallery__market-name{
     letter-spacing:3px;
     font-size:18px;
     font-weight:500;
     line-height:24px;
     display:inline-block;
 }
-.gallery4{
+.gallery__element-name{
     font-size:48px;
     font-weight:600;
     margin-left:30px;
 }
-.galleryLine{
+.gallery__line{
     border-left: 3px solid #55a18c;
     height:75px;
     width:1px;
     display:inline-block;
     margin: 0 30px;
 }
-.gallery5{
+.gallery__second-top{
     color:#55a18c;
     letter-spacing:3px;
     font-size:32px;
@@ -304,12 +304,12 @@
     margin:10px 0;
     line-height:42px;
 }
-.gallery6{
+.gallery__second-bottom{
     margin: 4px 0;
     font-size:18px;
     line-height:18px;
 }
-.gallery_1{
+.gallery__arrow{
     font-size:52px;
     position:absolute;
     cursor:pointer;
@@ -325,7 +325,7 @@
     padding:30px 64px 0;
     letter-spacing:0em;
 }
-.product_examples_bottle{
+.product-examples-bottle{
     width: 46%; 
     float: left;
 }
@@ -338,7 +338,7 @@
     }
 }
 @media (max-width: 979px){
-    .bottles_purple{
+    .bottles-purple{
         width:33.33333333%;
     }
 }
@@ -353,7 +353,7 @@
     .banner_purple{
         height: 400px;
     }
-    .bottles_purple{
+    .bottles-purple{
         width:50%;
     }
     .purple_small2{
@@ -371,99 +371,98 @@
         float:left;
         width: 100%;
     }
-    .one_bottle{
+    .one-bottle{
         float: none;
         display: block;
         width: 100%;
         box-sizing: border-box;
     }
-    .gallery_1{
+    .gallery__arrow{
         right:-10px;
     }
-    .mass_bottle{
+    .mass-bottle{
         width:100%;
     }
     .inner_one_bottle{
         padding-left:0px;
         margin-bottom:0px;
         float:none;
-        box-sizing:initial;
-        
+        box-sizing:initial; 
     }
     .inner_one_bottle img{
         width: 1000px;
     }
-    .product_examples_purple{
+    .product-examples-purple{
         width: 100%;
         float:none;
     }
-    .product_examples_green{
+    .product-examples-green{
         width: 100%;
         float:none;
     }
-    .gallery1{
+    .gallery__block{
         display: initial;
     }
-    .gallery2{
+    .gallery__first-half{
         justify-content: initial;
     }
-    .gallery3{
+    .gallery__market-name{
         font-size: 12px;
         display: flex;
     }
     .g_mar{
         margin-left: 10px;
     }
-    .gallery4{
+    .gallery__element-name{
         font-size: 24px;
         margin-left:10px;
     }
-    .galleryLine{
+    .gallery__line{
         display: none;
     }
-    .gallery5{
+    .gallery__second-top{
         font-size: 20px;
         font-weight: 700;
         letter-spacing: 0;
         line-height: 26px;
         margin: 0;
     }
-    .gallery6{
+    .gallery__second-bottom{
         font-size: 14px;
         margin:0px 0;
     }
-    .gallery_1{
+    .gallery__arrow{
         bottom:69px;
     }
     .special-container{
         padding-right: 0px;
         padding-left: 0px;
     }
-    .product_head{
+    .product-head{
         font-size: 20px;
     }
-    .product_base{
+    .product-base{
         font-size: 11px;
     }
-    .product_type{
+    .product-type{
         padding-top: 0px;
     }
-    .spirt_picture{
+    .spirit-picture{
         width:50%;
         padding: 0 0 20px 20px;
     }
     .phone_hidden{
         display: none;
     }
-    .getranke{
+    .special__beverage{
         padding-right: 20px;
         padding-left: 20px;
     }
-    .after-getranke{
+    .special__beverage-stable{
         padding-right: 20px;
         padding-left: 20px;
     }
-    .product_examples_bottle{
+    .product-examples-bottle{
         position: absolute;
         bottom: 0px;
         right: 0px;
@@ -482,15 +481,15 @@
     }
 }
 @media (max-width:520px){
-    .gallery6{
+    .gallery__second-bottom{
         width: 360px;
     }
-    .gallery_1{
+    .gallery__arrow{
         bottom:85px;
     }
 }
 @media (max-width:360px){
-    .gallery5{
+    .gallery__second-top{
         font-size: 14px;
     }
 }
@@ -727,7 +726,7 @@
     .DEIN{
         font-size: 18px;
     }
-    .getranke{
+    .special__beverage{
         font-size: 18px;
     }
 }

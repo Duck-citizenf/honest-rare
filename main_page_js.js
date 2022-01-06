@@ -1,6 +1,6 @@
 // JavaScript source code
 let a = 0;
-document.querySelector('.gallery_1').addEventListener('click', move1);
+document.querySelector('.gallery__arrow').addEventListener('click', move1);
 setInterval(move1, 3000);
 function move1() {
     if(a == 0){
