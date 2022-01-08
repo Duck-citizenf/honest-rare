@@ -205,7 +205,7 @@
     float: right;
     width: 50%;
 }
-.inner_one_bottle{
+.inner-one-bottle{
     padding-left:20px;
     margin-bottom:20px;
     float:left;
@@ -563,13 +563,13 @@
     .mass-bottle{
         width:100%;
     }
-    .inner_one_bottle{
+    .inner-one-bottle{
         padding-left:0px;
         margin-bottom:0px;
         float:none;
         box-sizing:initial; 
     }
-    .inner_one_bottle img{
+    .inner-one-bottle img{
         width: 1000px;
     }
     .product-examples-purple{
@@ -652,14 +652,14 @@
     }
 }
 @media (max-width:620px){
-    .purple_slanted{
+    .purple-slanted{
         font-size: 44px;
     }
-    .banner_purple_image img{
+    .banner-purple-image img{
         height: 180px;
         width: 180px;
     }
-    .banner_purple_image{
+    .banner-purple-image{
         top: 213px;
     }
     .banner__text{
