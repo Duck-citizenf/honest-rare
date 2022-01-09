@@ -4,25 +4,26 @@
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
     <link href="csss/magazin.css" rel="stylesheet">
+    <link href="csss/common__honest-rare.css" rel="stylesheet">
     <title></title>
 </head>
 <body>
-    <div class="post-header-0">
+    <div class="flex header-strip">
         <p>✔ Über 1.000 Getränke direkt vom Hersteller bestellen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔ Nichts aus dem Supermarkt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔ Wir beraten dich: 030-99004741</p>
     </div>
-    <div class="post-header0">
-        <div tabindex="0" class="menu">
-            <div tabindex="0" style="margin: 0px 10px 7px;" class="burger">☰</div>
-            <div class="platform">
+    <div class="flex header">
+        <div tabindex="0" class="header__menu">
+            <div tabindex="0" class="header__burger">☰</div>
+            <div class="header__platform">
                 <a>% SALE</a>
                 <a>CRAFT BEER</a>
-                <div tabindex="0" class="menu">
+                <div tabindex="0" class="header__menu">
                     <a>GIN</a>
-                    <div class="platform relative">
-                        <a style="color: #000000; padding-left: 20px;">Dry</a>
-                        <a style="color: #000000; padding-left: 20px;">Pure</a>
-                        <a style="color: #000000; padding-left: 20px;">Liquid</a>
-                        <a style="color: #000000; padding-left: 20px;">Solid</a>
+                    <div class="relative header__platform">
+                        <a class="header__options">Dry</a>
+                        <a class="header__options">Pure</a>
+                        <a class="header__options">Liquid</a>
+                        <a class="header__options">Solid</a>
                     </div>
                 </div>
                 <a>SPIRITUOSEN</a>
@@ -33,26 +34,39 @@
                 <a>WISSEN</a>
             </div>
         </div>
-        <div class="left-logo"><a href="main-page.html"><img src="images/top-logo.png"></a></div>
-        <div class="right-logo">
-            <span class="indlogo"><img src="images/like.png"><div>Love-List</div>   </span>
-            <span class="indlogo"><img src="images/like.png"><div>Mein Konto  </div> </span>
-            <div tabindex="0" class="basket">
-                <div tabindex="0" class="right-logo">
-                    <span tabindex="0" class="indlogo">
-                        <span tabindex="0" class="inbasketlogo"><img src="images/like.png"><span class="count">1</span></span>
+        <div class="header__logo">
+            <a href="main-page.html">
+                <img src="images/top-logo.png">
+            </a>
+        </div>
+        <div class="flex text-center header__buttons">
+            <span class="header__button-margins">
+                <img src="images/like.png">
+                <div>Love-List</div>   
+            </span>
+            <span class="header__button-margins">
+                <img src="images/like.png">
+                <div>Mein Konto</div> 
+            </span>
+            <div tabindex="0" class="header__basket">
+                <div tabindex="0" class="header__buttons">
+                    <span tabindex="0" class="header__button-margins">
+                        <span tabindex="0" class="relative">
+                            <img src="images/like.png">
+                            <span class="count">1</span>
+                        </span>
                         <div tabindex="0">Getränkekorb</div>
                     </span>
                 </div>
-                <div class="minicart-container">
-                    <div class="platform-right">
-                        <a class="basket-logo">Mein Getränkekorb</a>
+                <div class="relative header__minicart">
+                    <div class="header__platform-right">
+                        <a class="header__basket-logo">Mein Getränkekorb</a>
                         <div>
-                            <div class="basket1">
+                            <div class="flex relative header__basket1">
                                 <span class="bottle"><img src="images/like.png"></span>
                                 <div class="wide">
                                     <a>Der Hopfen Gin</a>
-                                    <div class="basket2">
+                                    <div class="flex header__basket2">
                                         <select>
                                         <option>1</option>
                                         <option>2</option>
@@ -79,8 +93,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="basket2">
-                                <a class="basket3">Summe</a>
+                            <div class="flex header__basket2">
+                                <a class="flex header__basket3">Summe</a>
                                 <a>€29,50</a>
                             </div>
                         </div>
@@ -94,36 +108,36 @@
         </div>
     </div>
     <div id="page-top">
-        <div class="post-header1 post-header2">
-            <div>% SALE</div>
-            <div>CRAFT BEER</div>
-            <div class="dropdown">
-                <button class="dropbtn">GIN</button>
-                <div class="dropdown-content">
-                    <a>Dry</a>
-                    <a>Pure</a>
-                    <a>Liquid</a>
-                    <a>Solid</a>
+            <div class="flex page-top__header">
+                <div>% SALE</div>
+                <div>CRAFT BEER</div>
+                <div class="relative page-top__dropdown">
+                    <button class="page-top__dropbtn">GIN</button>
+                    <div class="page-top__dropdown-content">
+                        <a>Dry</a>
+                        <a>Pure</a>
+                        <a>Liquid</a>
+                        <a>Solid</a>
+                    </div>
                 </div>
-            </div>
-            <div>SPIRITUOSEN</div>
-            <div>WEIN</div>
-            <div>KAFFEE</div>
-            <div>LIMOS</div>
-            <div>PAKETE</div>
-            <div class="dropdown">
-                <button class="dropbtn">WISSEN</button>
-                <div class="dropdown-content">
-                    <a href="magazin.html">MAGAZIN</a>
-                    <a>GIN-REZEPTE</a>
+                <div>SPIRITUOSEN</div>
+                <div>WEIN</div>
+                <div>KAFFEE</div>
+                <div>LIMOS</div>
+                <div>PAKETE</div>
+                <div class="flex page-top__dropdown">
+                    <button class="page-top__dropbtn">WISSEN</button>
+                    <div class="page-top__dropdown-content">
+                        <a href="magazin.html">MAGAZIN</a>
+                        <a>GIN-REZEPTE</a>
+                    </div>
                 </div>
+                <div class="flex page-top__search">SUCHE<img src="images/like.png"></div>
             </div>
-            <div class="search">SUCHE<img src="images/like.png"></div>
-        </div>
     </div>
 <!--end of the header--->
     <div class="main-container">
-        <div style="margin: 70px 0 30px;">
+        <div class="title-line" style="margin: 70px 0 30px; display: flex;">
             <h2>AKTUELL BELIEBTE BEITRÄGE</h2>
         </div>
         <div class="after">
@@ -298,21 +312,23 @@
     </div>
     <div class="main-container">
         <div style="display: flex;">
-            <div style="background-color: #f9f9f9; padding: 35px;">
-                ALLE
-                CRAFT BEER
-                WEIN
-                KAFFEE
-                LIMOS
-                GIN
-                WHISKY
-                RUM
-                LIKÖR
-                TEQUILA
+            <div style="background-color: #f9f9f9; padding: 35px;display: flex;flex-direction: column;width: 24%;">
+                <h4>NACH GETRÄNK FILTERN:</h4>
+                <a style="cursor:pointer;margin-top:13px;background-color: rgba(85,161,140,0.05);border:1px solid #55a18c;text-align:center;color: #373737;font-size:14px;padding:8px;">ALLE</a>
+                <a style="cursor:pointer;margin-top:13px;background-color: rgba(85,161,140,0.05);border:1px solid #55a18c;text-align:center;color: #373737;font-size:14px;padding:8px;">CRAFT BEER</a>
+                <a style="cursor:pointer;margin-top:13px;background-color: rgba(85,161,140,0.05);border:1px solid #55a18c;text-align:center;color: #373737;font-size:14px;padding:8px;">WEIN</a>
+                <a style="cursor:pointer;margin-top:13px;background-color: rgba(85,161,140,0.05);border:1px solid #55a18c;text-align:center;color: #373737;font-size:14px;padding:8px;">KAFFEE</a>
+                <a style="cursor:pointer;margin-top:13px;background-color: rgba(85,161,140,0.05);border:1px solid #55a18c;text-align:center;color: #373737;font-size:14px;padding:8px;">LIMOS</a>
+                <a style="cursor:pointer;margin-top:13px;background-color: rgba(85,161,140,0.05);border:1px solid #55a18c;text-align:center;color: #373737;font-size:14px;padding:8px;">GIN</a>
+                <a style="cursor:pointer;margin-top:13px;background-color: rgba(85,161,140,0.05);border:1px solid #55a18c;text-align:center;color: #373737;font-size:14px;padding:8px;">WHISKY</a>
+                <a style="cursor:pointer;margin-top:13px;background-color: rgba(85,161,140,0.05);border:1px solid #55a18c;text-align:center;color: #373737;font-size:14px;padding:8px;">RUM</a>
+                <a style="cursor:pointer;margin-top:13px;background-color: rgba(85,161,140,0.05);border:1px solid #55a18c;text-align:center;color: #373737;font-size:14px;padding:8px;">LIKÖR</a>
+                <a style="cursor:pointer;margin-top:13px;background-color: rgba(85,161,140,0.05);border:1px solid #55a18c;text-align:center;color: #373737;font-size:14px;padding:8px;">TEQUILA</a>
             </div>
-            <div>
-                <div style="margin: 70px 0 30px;">
+            <div style="padding-left: 40px;">
+                <div class="title-line" style="margin: 70px 0 30px;display:flex;justify-content:space-between;align-items:center;">
                     <h2>REZEPTE</h2>
+                    <a style="width:160px;height:38px;background-color: #fff;border:1px solid #55a18c;text-align:center;line-height: 36px;text-transform:uppercase;">Alle Artikel</a>
                 </div>
                 <div style="display: flex;flex-wrap: wrap;">
                     <div style="width: 25%;padding: 10px;box-sizing: border-box;">
@@ -347,68 +363,72 @@
         </div>
     </div>
 <!--beginning of the footer--->
-    <div class="footer-header">
-        <div class="footer-logo"><img src="images/top-logo.png"></div>
-        <div class="post-header4">
-            <div class="footer-list">
-                <a class="footer-menu-name">BELIEBTE SEITEN </a>
-                <a class="footer-menu-content">Gin </a>
-                <a class="footer-menu-content">Craft Beer </a>
-                <a class="footer-menu-content">Spirituosen </a>
-                <a class="footer-menu-content">Gin Rezepte </a>
-                <a class="footer-menu-content">Angebot für Firmenkunden </a>
-                <a class="footer-menu-content">Highlights</a>
-                <a class="footer-menu-content">Magazin</a>
-                <a class="footer-menu-content">Verkaufen auf Honest & Rare</a>
+    <div class="footer">
+        <div class="text-center footer__logo"><img src="images/top-logo.png"></div>
+        <div class="flex footer__columns">
+            <div class="flex flex-column footer__list">
+                <a class="footer__menu-name">BELIEBTE SEITEN </a>
+                <a class="footer__menu-content">Gin </a>
+                <a class="footer__menu-content">Craft Beer </a>
+                <a class="footer__menu-content">Spirituosen </a>
+                <a class="footer__menu-content">Gin Rezepte </a>
+                <a class="footer__menu-content">Angebot für Firmenkunden </a>
+                <a class="footer__menu-content">Highlights</a>
+                <a class="footer__menu-content">Magazin</a>
+                <a class="footer__menu-content">Verkaufen auf Honest & Rare</a>
+                </div>
+            <div class="flex flex-column footer__list">
+                <a class="footer__menu-name">WISSENSWERTES</a>
+                <a class="footer__menu-content">Alle Marken </a>
+                <a class="footer__menu-content">Alle Verkäufer Shops </a>
+                <a class="footer__menu-content">Unsere Getränkekriterien </a>
+                <a class="footer__menu-content">Unsere Mission</a>
+                <a class="footer__menu-content">So funktioniert's </a>
+                <a class="footer__menu-content">Gutschein kaufen</a>
+                <a class="footer__menu-content">Affiliate</a>
             </div>
-            <div class="footer-list">
-                <a class="footer-menu-name">WISSENSWERTES</a>
-                <a class="footer-menu-content">Alle Marken </a>
-                <a class="footer-menu-content">Alle Verkäufer Shops </a>
-                <a class="footer-menu-content">Unsere Getränkekriterien </a>
-                <a class="footer-menu-content">Unsere Mission</a>
-                <a class="footer-menu-content">So funktioniert's </a>
-                <a class="footer-menu-content">Gutschein kaufen</a>
-                <a class="footer-menu-content">Affiliate</a>
-            </div>
-            <div class="footer-list">
-                <a class="footer-menu-name">SERVICES & INFOS </a>
-                <a class="footer-menu-content">Über uns </a>
-                <a class="footer-menu-content">Häufige Fragen </a>
-                <a class="footer-menu-content">Kontakt </a>
-                <a class="footer-menu-content">Lieferung und Versand </a>
-                <a class="footer-menu-content">Impressum </a>
-                <a class="footer-menu-content">AGB </a>
-                <a class="footer-menu-content">Datenschutz</a>
-            </div>
-            <div class="footer-list">
-                <a class="footer-menu-name">ZAHLUNGSARTEN</a>
-                <div class="footer-menu-content">
-                    <img style="padding-left: 20px;" src="images/like.png">
+            <div class="flex flex-column footer__list">
+                <a class="footer__menu-name">SERVICES & INFOS </a>
+                <a class="footer__menu-content">Über uns </a>
+                <a class="footer__menu-content">Häufige Fragen </a>
+                <a class="footer__menu-content">Kontakt </a>
+                <a class="footer__menu-content">Lieferung und Versand </a>
+                <a class="footer__menu-content">Impressum </a>
+                <a class="footer__menu-content">AGB </a>
+                <a class="footer__menu-content">Datenschutz</a>
+                </div>
+            <div class="flex flex-column footer__list">
+                <a class="footer__menu-name">ZAHLUNGSARTEN</a>
+                <div class="footer__menu-content">
+                    <img class="footer__image3rd" src="images/like.png">
                     <img src="images/like.png">
                     <img src="images/like.png">
                     <img src="images/like.png">
                 </div>
-                <a class="footer-menu-name">Lass uns in Kontakt bleiben</a>
-                <div class="footer-menu-content">
-                    <img style="padding-left: 20px;" src="images/like.png">
+                <a class="footer__menu-name">Lass uns in Kontakt bleiben</a>
+                <div class="footer__menu-content">
+                    <img class="footer__image3rd" src="images/like.png">
                     <img src="images/like.png">
                     <img src="images/like.png">
                 </div>
             </div>
-            <div class="footer-list" style="max-width: 1200px; margin: 0 auto;">
-                <a class="footer-menu-name">SERVICETELEFON</a> 
+            <div class="flex flex-column footer__list" style="max-width: 1200px; margin: 0 auto;">
+                <a class="footer__menu-name">SERVICETELEFON</a> 
                 <a class="phone-number">	030 99 00 47 41 </a>
-                <a class="footer-menu-content">Täglich von 10-22 Uhr </a>
-                <div class="email-form">
-                    <a class="footer-menu-name">GENUSSLETTER</a> 
-                    <input style="margin-bottom:10px; padding: 7px 10px;" class="email-margin" placeholder="E-Mail"> 
-                    <a class="footer-menu-content"><input type="checkbox">Danke für euren Hinweis zum Datenschutz. Ist so okay für mich.</a>
-                    <div class="button"><button class="button-margin">Ja, schick rüber!</button></div>
+                <a class="footer__menu-content">Täglich von 10-22 Uhr </a>
+                <div class="flex flex-column footer__email">
+                    <a class="footer__menu-name">GENUSSLETTER</a> 
+                    <input class="footer__email-margin" placeholder="E-Mail"> 
+                    <a class="footer__menu-content">
+                        <input type="checkbox">Danke für euren Hinweis zum Datenschutz. Ist so okay für mich.
+                    </a>
+                    <div class="button">
+                        <button class="button-margin">Ja, schick rüber!</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="copyright">
+        <div class="text-center copyright">
             <a>© 2021 Honest & Rare UG (haftungsbeschränkt)</a>
         </div>
     </div>
