@@ -83,3 +83,12 @@ h4{
     font-weight: normal;
     margin: 0px;
 }
+.container {
+    display: flex;
+    overflow: hidden;
+    transform: translate(calc(var(--i, 0)/var(--n)*-100% + var(--tx, 0px)));
+    position: relative;
+}
+.smooth { 
+    transition: transform calc(var(--f, 1)*.5s) ease-out; 
+}
