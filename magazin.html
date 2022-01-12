@@ -3,8 +3,8 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="csss/magazin.css" rel="stylesheet">
     <link href="csss/common__honest-rare.css" rel="stylesheet">
+    <link href="csss/magazin.css" rel="stylesheet">
     <title></title>
 </head>
 <body>
@@ -137,14 +137,14 @@
     </div>
 <!--end of the header--->
     <div class="main-container">
-        <div class="title-line full-line" style="margin: 70px 0 30px; display: flex;">
+        <div class="title-line full-line" style="display: flex;">
             <h2>AKTUELL BELIEBTE BEITRÄGE</h2>
         </div>
         <div class="after">
-            <div style="width: 50%; float: left;height:auto;vertical-align:middle;">
+            <div class="popular-now" style="height:auto;vertical-align:middle;">
                 <img src="images/geschenkideen-zu-weihnachten-mit-und-ohne-alkohol.jpg">
                 <div>
-                    <div>
+                    <div class="popular-now__big-card">
                         <h4 class="h4-first" style="font-size: 30px;">Geschenkideen zu Weihnachten mit & ohne Alkohol</h4>
                         <div style="font-size: 13px;">
                             <span style="color: #373737;">26.08.2021</span>
@@ -157,7 +157,7 @@
                     </div>
                 </div>
             </div>
-            <div style="width: 50%; float: left;">
+            <div class="popular-now">
                 <div style="width:100%;float: left;box-sizing: border-box;padding: 0px;">
                     <div style="width:50%;float:left;">
                         <img src="images/schnaps-geschenke-titelbild.jpg">
@@ -224,21 +224,21 @@
     <div class="after" style="background-color: rgba(85,161,140,0.1);align-items: center;">
         <div style="display:flex;">
             <div><img src="images/tyrell-interview-braukunstatelier-titelbild.jpg"></div>
-            <div style="margin-top:70px;background-color: rgba(85,161,140,0.1);width:50%;padding-left:20px;">
+            <div style="margin-top:70px;width:50%;padding-left:20px;">
                 <h4 class="h4-first" style="font-size:30px;cursor: pointer;">Thomas Tyrell im Interview: Über die hohe Kunst der lagerfähigen Biere</h4>
-                von Anastasia Hartleib
-                Der deutsche Craft Beer-Pionier Thomas Tyrell im Interview über sein BrauKunstAtelier und die Kunst des Brauens von lagerfähigen Bieren - jetzt lesen!
-                WEITERLESEN
+                <div style="font-size:13px;">von Anastasia Hartleib</div>
+                <p style="font-size:15px;padding:6px 0;font-family:Nunito,serif;color: #373737;">Der deutsche Craft Beer-Pionier Thomas Tyrell im Interview über sein BrauKunstAtelier und die Kunst des Brauens von lagerfähigen Bieren - jetzt lesen!</p>
+                <span style="font-size:16px;color: #55a18c;border-bottom:0.5px solid #55a18c;">WEITERLESEN</span>
             </div>
         </div>
     </div>
     <div class="main-container">
-        <div class="title-line" style="margin:70px 0 30px; display:flex;justify-content:space-between;align-items:center;">
+        <div class="title-line" style="display:flex;justify-content:space-between;align-items:center;">
             <h2>UNSERE MEISTGELESENEN ARTIKEL</h2>
             <a class="article-button">Alle Artikel</a>
         </div>
         <div style="display: flex;flex-wrap: wrap;">
-            <div style="width: 25%;padding: 10px;box-sizing: border-box;">
+            <div class="grid">
                 <img src="images/schnaps-geschenke-titelbild.jpg">
                 <h4 class="h4-first" style="font-size: 24px;cursor: pointer;">Die 10 besten Gins für den Sommer 2021</h4>
                 <div style="font-size: 13px; margin: 5px 0;">
@@ -247,7 +247,7 @@
                     <span style="color: #373737;">von Anastasia Hartleib</span>
                 </div>
             </div>
-            <div style="width: 25%;padding: 10px;box-sizing: border-box;">
+            <div class="grid">
                 <img src="images/schnaps-geschenke-titelbild.jpg">
                 <h4 class="h4-first" style="font-size: 24px;cursor: pointer;">Die 10 besten Gins für den Sommer 2021</h4>
                 <div style="font-size: 13px; margin: 5px 0;">
@@ -256,7 +256,7 @@
                     <span style="color: #373737;">von Anastasia Hartleib</span>
                 </div>
             </div>
-            <div style="width: 25%;padding: 10px;box-sizing: border-box;">
+            <div class="grid">
                 <img src="images/schnaps-geschenke-titelbild.jpg">
                 <h4 class="h4-first" style="font-size: 24px;cursor: pointer;">Die 10 besten Gins für den Sommer 2021</h4>
                 <div style="font-size: 13px; margin: 5px 0;">
@@ -265,7 +265,7 @@
                     <span style="color: #373737;">von Anastasia Hartleib</span>
                 </div>
             </div>
-            <div style="width: 25%;padding: 10px;box-sizing: border-box;">
+            <div class="grid">
                 <img src="images/schnaps-geschenke-titelbild.jpg">
                 <h4 class="h4-first" style="font-size: 24px;cursor: pointer;">Die 10 besten Gins für den Sommer 2021</h4>
                 <div style="font-size: 13px; margin: 5px 0;">
@@ -274,7 +274,7 @@
                     <span style="color: #373737;">von Anastasia Hartleib</span>
                 </div>
             </div>
-            <div style="width: 25%;padding: 10px;box-sizing: border-box;">
+            <div class="grid">
                 <img src="images/schnaps-geschenke-titelbild.jpg">
                 <h4 class="h4-first" style="font-size: 24px;cursor: pointer;">Die 10 besten Gins für den Sommer 2021</h4>
                 <div style="font-size: 13px; margin: 5px 0;">
@@ -283,7 +283,7 @@
                     <span style="color: #373737;">von Anastasia Hartleib</span>
                 </div>
             </div>
-            <div style="width: 25%;padding: 10px;box-sizing: border-box;">
+            <div class="grid">
                 <img src="images/schnaps-geschenke-titelbild.jpg">
                 <h4 class="h4-first" style="font-size: 24px;cursor: pointer;">Die 10 besten Gins für den Sommer 2021</h4>
                 <div style="font-size: 13px; margin: 5px 0;">
@@ -292,7 +292,7 @@
                     <span style="color: #373737;">von Anastasia Hartleib</span>
                 </div>
             </div>
-            <div style="width: 25%;padding: 10px;box-sizing: border-box;">
+            <div class="grid">
                 <img src="images/schnaps-geschenke-titelbild.jpg">
                 <h4 class="h4-first" style="font-size: 24px;cursor: pointer;">Die 10 besten Gins für den Sommer 2021</h4>
                 <div style="font-size: 13px; margin: 5px 0;">
@@ -301,7 +301,7 @@
                     <span style="color: #373737;">von Anastasia Hartleib</span>
                 </div>
             </div>
-            <div style="width: 25%;padding: 10px;box-sizing: border-box;">
+            <div class="grid">
                 <img src="images/schnaps-geschenke-titelbild.jpg">
                 <h4 class="h4-first" style="font-size: 24px;cursor: pointer;">Die 10 besten Gins für den Sommer 2021</h4>
                 <div style="font-size: 13px; margin: 5px 0;">
@@ -312,21 +312,21 @@
             </div>
         </div>
     </div>
-    <div class="after" style="margin: 50px 0; background-color: #f9f9f9;">
+    <div class="after" style="width:100%;margin: 50px 0; background-color: #f9f9f9;">
         <div class="main-container">
             <div style="display: flex;align-items: center; padding: 25px 0 25px 0;">
-                <div style="padding: 0 30px;">REZEPTE</div>
-                <div style="padding: 0 30px; border-left:2px solid #c8c8c8;">GOOD READS</div>
-                <div style="padding: 0 30px; border-left:2px solid #c8c8c8;">PORTRAITS & INTERVIEW</div>
-                <div style="padding: 0 30px; border-left:2px solid #c8c8c8;">SGETRÄNKEWISSEN</div>
-                <div style="padding: 0 30px; border-left:2px solid #c8c8c8;">EMPFEHLUNGEN</div>
-                <div style="padding: 0 30px; border-left:2px solid #c8c8c8;">LOKALER GETRÄNKEGUIDE</div>
+                <div class="gray-strip__word-style">REZEPTE</div>
+                <div class="gray-strip__word-style border">GOOD READS</div>
+                <div class="gray-strip__word-style border">PORTRAITS & INTERVIEW</div>
+                <div class="gray-strip__word-style border">SGETRÄNKEWISSEN</div>
+                <div class="gray-strip__word-style border">EMPFEHLUNGEN</div>
+                <div class="gray-strip__word-style border">LOKALER GETRÄNKEGUIDE</div>
             </div>
         </div>
     </div>
     <div class="main-container">
-        <div style="display: flex;">
-            <div class="menu__green-buttons" style="background-color: #f9f9f9; padding: 35px;display: flex;flex-direction: column;width: 24%;">
+        <div class="flex">
+            <div class="menu__green-buttons">
                 <h4>NACH GETRÄNK FILTERN:</h4>
                 <a class="menu__active">ALLE</a>
                 <a>CRAFT BEER</a>
@@ -339,8 +339,8 @@
                 <a>LIKÖR</a>
                 <a>TEQUILA</a>
             </div>
-            <div style="padding-left:40px;width:76%;">
-                <div class="title-line" style="margin: 70px 0 30px;display:flex;justify-content:space-between;align-items:center;">
+            <div class="menu__posts">
+                <div class="title-line last" style="display:flex;justify-content:space-between;align-items:center;">
                     <h2>REZEPTE</h2>
                     <a class="article-button">Alle Artikel</a>
                 </div>
