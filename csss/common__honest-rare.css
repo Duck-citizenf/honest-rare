@@ -273,11 +273,6 @@ body {
     .page-top__header {
         display: none;
     }
-    .header__logo{
-        position: absolute;
-        top: 18px;
-        left: 46px;
-    }
     .header__logo img{
         width: 150px;
         height: auto;
@@ -301,6 +296,14 @@ body {
     }
     .main__stikos a{
         font-size: 12px;
+    }
+}
+@media (max-width:991px){
+    .header__logo{
+        position: absolute;
+        top: 18px;
+        left: 46px;
+        max-width: 142px;
     }
 }
 @media (max-width:980px){
