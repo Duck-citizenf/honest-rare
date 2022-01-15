@@ -1,3 +1,12 @@
+.container {
+    display: flex;
+    overflow: hidden;
+    transform: translate(calc(var(--i, 0)/var(--n)*-100% + var(--tx, 0px)));
+    position: relative;
+}
+.smooth { 
+    transition: transform calc(var(--f, 1)*.5s) ease-out; 
+}
 .after:after{
     display: table;
     content: "";
@@ -29,6 +38,9 @@ h4{
 .popular-now{
     width: 50%; 
     float: left;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin-bottom: 70px;
 }
 .popular-now__big-card{
     margin:-125px auto 0;
@@ -58,7 +70,6 @@ h4{
     padding: 35px;
     display: flex;
     flex-direction: column;
-    width: 24%;
 }
 .menu__green-buttons > .menu__active{
     background-color: #55a18c;
@@ -99,6 +110,39 @@ h4{
 .full-line:after{
     width: 100%;
 }
+.colored-Thomas{
+    display:flex;
+}
+.colored-Thomas__img{
+    height: 400px;
+    width: 46%;
+    background-position: center center;
+    background-image: url("images/tyrell-interview-braukunstatelier-titelbild.jpg")
+}
+.colored-Thomas__text{
+    margin-top:70px;
+    width:50%;
+    padding-left:20px;
+}
+.colored-Thomas__text-head{
+    font-size:30px;
+    cursor: pointer;
+}
+.article{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.menu__posts-mobile{
+    display:flex;
+    flex-wrap:wrap;
+    width:1196px;
+}
+.menu__post{
+    width:299px;
+    padding:10px;
+    box-sizing:border-box;
+}
 @media (max-width:991px) {
     .popular-now{
         width: 100%;
@@ -123,7 +167,6 @@ h4{
         padding: 0 15px;
     }
     .menu__green-buttons{
-        width: 30%;
         padding: 20px;
     }
     .menu__posts{
@@ -131,6 +174,70 @@ h4{
     }
     .last{
         margin-top: 0;
+    }
+}
+@media (max-width:767px) {
+    .colored-Thomas{
+        flex-direction: column;
+    }
+    .colored-Thomas__img{
+        width: auto;
+        height: 240px;
+        position: relative;
+        margin: 0 -20px;
+    }
+    .colored-Thomas__img > img{
+        width: auto;
+        height: 240px;
+    }
+    .colored-Thomas__text{
+        width:100%;
+        padding: 30px 20px;
+        margin-top: 0px;
+    }
+    .colored-Thomas__text-head{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .phone-hidden{
+        display: none;
+    }
+    .menu__posts{
+        width:100%;
+        padding-left:0;
+    }
+    .menu__green{
+        overflow: hidden;
+        position: relative;
+    }
+    .menu__green-buttons{
+        position: absolute;
+        z-index: 2;
+        right: -250px;
+    }
+    .article-button{
+        display: none;
+    }
+    .title-line:after{
+        width: 100%;
+    }
+    .article{
+        justify-content: center;
+    }
+    .h2-last{
+        padding: 0 15px;
+    }
+    .menu__posts-mobile{
+        width: initial;
+        flex-direction: column;
+    }
+    .menu__post{
+        display: flex;
+        width: initial;
+        align-items: center;
+    }
+    .container{
+        transform: initial;
     }
 }
 .border-box{
@@ -155,13 +262,4 @@ h4{
 }
 img {
     max-width: 100%;
-}
-.container {
-    display: flex;
-    overflow: hidden;
-    transform: translate(calc(var(--i, 0)/var(--n)*-100% + var(--tx, 0px)));
-    position: relative;
-}
-.smooth { 
-    transition: transform calc(var(--f, 1)*.5s) ease-out; 
 }
