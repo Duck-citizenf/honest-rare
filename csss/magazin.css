@@ -143,6 +143,19 @@ h4{
     padding:10px;
     box-sizing:border-box;
 }
+.pc-hidden{
+    display:none;
+}
+.gallery{
+    transform: translate(0px);
+    transition-duration: 200ms;
+    transition-property: all;
+}
+.gallery-2{
+    transform: translate(-250px);
+    transition-duration: 200ms;
+    transition-property: all;
+}
 @media (max-width:991px) {
     .popular-now{
         width: 100%;
@@ -238,6 +251,21 @@ h4{
     }
     .container{
         transform: initial;
+    }
+    .article-button-mobile{
+        width:160px;
+        height:38px;
+        background-color: #fff;
+        border:1px solid #55a18c;
+        text-align:center;
+        line-height: 36px;
+        text-transform:uppercase;
+        cursor:pointer;
+        margin: 20px auto;
+    }
+    .pc-hidden{
+        display:flex;
+        justify-content:space-between;
     }
 }
 .border-box{
