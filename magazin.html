@@ -188,7 +188,7 @@
                         <span style="font-size: 16px;color: #55a18c;border-bottom:0.5px solid #55a18c;">WEITERLESEN</span>
                     </div>
                 </div>
-                <div style="width:100%;float: left;box-sizing: border-box;padding: 0px;">
+                <div style="width:100%;float:left;box-sizing:border-box;padding:0px;">
                     <div style="width:50%;float:left;">
                         <img src="images/schnaps-geschenke-titelbild.jpg">
                     </div>
@@ -237,7 +237,7 @@
             <h2>UNSERE MEISTGELESENEN ARTIKEL</h2>
             <a class="article-button">Alle Artikel</a>
         </div>
-        <div style="display: flex;flex-wrap: wrap;">
+        <div style="display:flex;flex-wrap:wrap;">
             <div class="grid">
                 <img src="images/schnaps-geschenke-titelbild.jpg">
                 <h4 class="h4-first" style="font-size: 24px;cursor: pointer;">Die 10 besten Gins für den Sommer 2021</h4>
@@ -325,9 +325,13 @@
         </div>
     </div>
     <div class="main-container">
+        <div class="pc-hidden">
+            <a>Nach Getränk filtern:</a>
+            <a class="menu__target" style="font-size: 46px;line-height: 14px;">=</a>
+        </div>
         <div class="flex menu__green">
             <div>
-                <div class="menu__green-buttons">
+                <div data-swipe-threshold="100" id="o1" class="menu__green-buttons gallery">
                     <h4>NACH GETRÄNK FILTERN:</h4>
                     <a class="menu__active">ALLE</a>
                     <a>CRAFT BEER</a>
@@ -392,6 +396,7 @@
                                 </div>
                             </div>
                         </div>
+                        <a class="article-button-mobile">Alle Artikel</a>
                     </div>
                 </div>
             </div>
@@ -468,4 +473,5 @@
         </div>
     </div>
     <script src="example/Script2.js"></script>
+    <script src="magazin-js.js"></script>
 </body>
