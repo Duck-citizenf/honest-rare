@@ -146,6 +146,10 @@ h4{
 .pc-hidden{
     display:none;
 }
+.h4-first{
+    font-size: 24px;
+    cursor: pointer;
+}
 .gallery{
     transform: translate(0px);
     transition-duration: 200ms;
@@ -155,6 +159,9 @@ h4{
     transform: translate(-250px);
     transition-duration: 200ms;
     transition-property: all;
+}
+.article-button-mobile{
+    display: none;
 }
 @media (max-width:991px) {
     .popular-now{
@@ -192,6 +199,9 @@ h4{
 @media (max-width:767px) {
     .colored-Thomas{
         flex-direction: column;
+    }
+    .h4-first{
+        font-size: 16px;
     }
     .colored-Thomas__img{
         width: auto;
@@ -250,7 +260,10 @@ h4{
         align-items: center;
     }
     .container{
-        transform: initial;
+        transform: inherit;
+    }
+    .smooth{
+        transform: inherit;
     }
     .article-button-mobile{
         width:160px;
@@ -262,10 +275,12 @@ h4{
         text-transform:uppercase;
         cursor:pointer;
         margin: 20px auto;
+        display: initial;
     }
     .pc-hidden{
         display:flex;
         justify-content:space-between;
+        margin-bottom: 30px;
     }
 }
 .border-box{
