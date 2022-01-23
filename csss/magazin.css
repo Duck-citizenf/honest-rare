@@ -176,10 +176,6 @@ h4{
     box-sizing:border-box;
     padding: 0px;
 }
-.popular-now__img{
-    width: 50%; 
-    float: left;
-}
 @media (max-width:991px) {
     .popular-now{
         width: 100%;
