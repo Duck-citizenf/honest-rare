@@ -162,7 +162,7 @@ body {
     z-index: 8;
     background-color: #FFFFFF;
 }
-.header__basket1{
+.header__basket-middle{
     flex-direction: row;
     justify-content:start;
     background-color:white;
@@ -170,12 +170,12 @@ body {
     border-bottom: 1px solid #ecf0f1;
     margin-bottom: 9px;
 }
-.header__basket2{
+.header__basket-line{
     flex-direction: row;
     justify-content:space-between;
     margin-bottom: 3px;
 }
-.header__basket3{
+.header__basket-price{
     flex-direction: row;
     justify-content:space-between;
     font-weight: bold; 
