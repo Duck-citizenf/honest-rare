@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
     <link href="csss/common__honest-rare.css" rel="stylesheet">
-    <link href="csss/main-page.css" rel="stylesheet">
+    <link href="csss/index.css" rel="stylesheet">
     <title></title>
 </head>
 <body>
