@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="header__logo">
-            <a href="main-page.html">
+            <a href="index.php">
                 <img src="images/top-logo.png">
             </a>
         </div>
@@ -102,7 +102,7 @@
                 <div>% SALE</div>
                 <div>CRAFT BEER</div>
                 <div class="relative page-top__dropdown">
-                    <button class="page-top__dropbtn">GIN</button>
+                    <a href="gin.php"><button class="page-top__dropbtn">GIN</button></a>
                     <div class="page-top__dropdown-content">
                         <a>Dry</a>
                         <a>Pure</a>
@@ -118,7 +118,7 @@
                 <div class="flex page-top__dropdown">
                     <button class="page-top__dropbtn">WISSEN</button>
                     <div class="page-top__dropdown-content">
-                        <a href="magazin.html">MAGAZIN</a>
+                        <a href="magazin.php">MAGAZIN</a>
                         <a>GIN-REZEPTE</a>
                     </div>
                 </div>
