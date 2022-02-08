@@ -217,6 +217,9 @@
     font-size:12px;
     letter-spacing:2px;
 }
+.w-3600{
+    width: 3600px;
+}
 .gallery__block{
     display:flex;
     margin-top:20px;
@@ -425,6 +428,16 @@
 .green-phone{
     color: #fff; 
     font-size: 36px;
+}
+.examples-left{
+    padding: 60px 0px 0px 4%;
+    width: 50%;
+}
+.pl-25{
+    padding-left: 25px;
+}
+.m-0{
+    margin: 0px;
 }
 /*media*/
 @media (max-width:1024px){

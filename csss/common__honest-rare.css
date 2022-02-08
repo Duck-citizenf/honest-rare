@@ -40,6 +40,34 @@ body {
 .relative{
     position:relative;
 }
+.w-100{
+    width:100%;
+}
+.w-80{
+    width:80%;
+}
+.w-98{
+    width:98%;
+}
+.hidden{
+    overflow:hidden;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-22{
+    font-size: 22px;
+}
+.white{
+    color: #fff;
+}
+.px-80{
+    padding-top:80px; 
+    padding-bottom: 80px;
+}
+.left{
+    float: left;
+}
 .header-strip{
     background-color: #C8C8C8;
     margin-bottom: 3px;
@@ -251,6 +279,10 @@ body {
     margin-bottom: 15px;
     color:#FFFFFF;
 }
+.footer__list-last{
+    max-width: 1200px; 
+    margin: 0 auto;
+}
 .copyright {
     color: #55a18c;
     padding-bottom: 20px;
@@ -340,6 +372,9 @@ body {
         display:block;
     }
     .footer__list a{
+        padding-left: 20px;
+    }
+    .footer__list-last a{
         padding-left: 20px;
     }
     .footer__email-margin {

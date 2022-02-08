@@ -25,6 +25,9 @@
     height: auto;
     width: 100%;
 }
+.main__input{
+    padding:8px 4px;
+}
 .logo {
     width: 50%;
     margin: 0px;
