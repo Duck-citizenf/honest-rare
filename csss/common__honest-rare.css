@@ -61,10 +61,6 @@ body {
 .white{
     color: #fff;
 }
-.px-80{
-    padding-top:80px; 
-    padding-bottom: 80px;
-}
 .left{
     float: left;
 }
