@@ -107,6 +107,9 @@ body {
     padding-left:10px; 
     padding-right:10px;
 }
+.py-6{
+    padding:6px 0;
+}
 .py-7{
     padding-top:7px; 
     padding-bottom:7px;
