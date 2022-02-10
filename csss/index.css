@@ -148,18 +148,6 @@
     font-weight: 600;
     font-size: 14px;
 }
-.font-36{ 
-    letter-spacing: 2px; 
-    font-size: 36px;
-}
-.font-34{
-    font-size: 34px;
-}
-.font-18{
-    font-size: 18px; 
-    padding-top: 7px; 
-    font-family: 'Nunito';
-}
 .banner-purple{
     height: 590px;
     background-size: 100% 100%;
@@ -273,10 +261,6 @@
     right:10px;
     bottom:49px;
 }
-.font-14{
-    font-size: 14px;
-    font-family: 'Nunito';
-}
 .mb-30{
     margin-bottom:30px;
     padding:30px 64px 0;
@@ -288,13 +272,6 @@
 }
 .golden-color{
     color: #e98731;
-}
-.pl-25{
-    padding-left: 25px;
-}
-.font-28{
-    font-family: 'Born Ready Slanted';
-    font-size: 28px;
 }
 .relative{
     position: relative;
@@ -435,9 +412,6 @@
 .examples-left{
     padding: 60px 0px 0px 4%;
     width: 50%;
-}
-.lh-18{
-    line-height: 18px;
 }
 .exceptional-button{
     color:#55a18c;

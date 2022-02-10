@@ -28,8 +28,26 @@ body {
     font-style: normal;
     font-weight: 400;
 }
+.Nunito{
+    font-family: 'Nunito';
+}
+.Serif{
+    font-style: serif;
+}
+.Slanted{
+    font-family: "Born Ready Slanted";
+}
 .flex{
     display: flex;
+}
+.warp{
+    flex-wrap:wrap;
+}
+.block{
+    display: block;
+}
+.inline-block{
+    display: inline-block;
 }
 .flex-column{
     flex-direction: column;
@@ -40,8 +58,26 @@ body {
 .vertical-center{
     vertical-align:middle;
 }
+.items-center{
+    align-items: center;
+}
 .relative{
     position:relative;
+}
+.content-center{
+    justify-content:center;
+}
+.content-space-between{
+    justify-content:space-between;
+}
+.border-green{
+    border-bottom:0.5px solid #55a18c;
+}
+.background-white{
+    background-color: #f9f9f9;
+}
+.background-black{
+    background-color: rgba(85,161,140,0.1);
 }
 .w-100{
     width:100%;
@@ -52,6 +88,12 @@ body {
 .w-98{
     width:98%;
 }
+.w-93px{
+    width: 93px;
+}
+.h-auto{
+    height:auto;
+}
 .hidden{
     overflow:hidden;
 }
@@ -61,11 +103,41 @@ body {
 .font-14{
     font-size: 14px;
 }
+.font-15{
+    font-size: 15px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-18{
+    font-size: 18px;
+}
 .font-22{
     font-size: 22px;
 }
+.font-28{
+    font-size: 28px;
+}
 .font-30{
     font-size: 30px;
+}
+.font-34{
+    font-size: 34px;
+}
+.font-36{ 
+    font-size: 36px;
+}
+.font-46{
+    font-size: 46px;
+}
+.ls-2{
+    letter-spacing: 2px; 
+}
+.lh-14{
+    line-height: 14px;
+}
+.lh-18{
+    line-height: 18px;
 }
 .white{
     color: #fff;
@@ -79,20 +151,26 @@ body {
 .black-37{
     color: #373737;
 }
+.light-green{
+    color: #55a18c;
+}
 .font-bold{
     font-weight: bold;
 }
 .left{
     float: left;
 }
+.p-0{
+    padding: 0px;
+}
 .pl-25{
     padding-left: 25px;
 }
-.m-0{
-    margin: 0px;
-}
 .pt-6{
     padding-top: 6px;
+}
+.pt-7{
+    padding-top: 7px;
 }
 .pt-50{
     padding-top:50px;
@@ -114,22 +192,46 @@ body {
     padding-top:7px; 
     padding-bottom:7px;
 }
+.py-25{
+    padding: 25px 0 25px 0;
+}
 .py-80{
     padding-top:80px; 
     padding-bottom: 80px;
+}
+.m-0{
+    margin: 0px;
+}
+.my-5{
+    margin: 5px 0px;
+}
+.my-50{
+    margin: 50px 0px;
 }
 .mx-15{
     margin-left: 15px;
     margin-right: 15px;
 }
+.mx-auto{
+    margin: 0px auto;
+}
+.mt-10{
+    margin-top: 10px;
+}
 .mt-17{
     margin-top: 17px;
+}
+.mt-58{
+    margin-top: 58px;
 }
 .mt-20{
     margin-top: 20px;
 }
 .ml-20{
     margin-left: 20px;
+}
+.mr-6{
+    margin-right: 6px;
 }
 .mt-19{
     margin-top: 19px;
